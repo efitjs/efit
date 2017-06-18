@@ -11,7 +11,7 @@ efit -v
 
 ## 使用方法
 
-### 全部配置选项
+### 默认配置选项
 
 ```
 var config = {
@@ -98,6 +98,15 @@ fis.webpage(config);
 ```
 fis.webapp(config);
 ```
+
+### 已使用项目
+
+- [艾乐卡官网](http://www.iloka.me/)
+- [艾乐卡微站](http://m.iloka.me/iloka)
+- [艾乐卡资讯编辑器](http://bs.iloka.me/content.html)
+- [艾乐卡活动编辑器](http://bs.iloka.me/h5.html)
+- [艾乐卡营销中心](http://sso.iloka.me/?url=http%3A%2F%2Fbs.iloka.me%2F#/)
+- ...
 
 ## TODO
 
