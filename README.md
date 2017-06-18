@@ -14,17 +14,17 @@ efit -v
 ### simple 简易模式配置
 
 ```
-fis.webPage({});
+fis.simple({});
 ```
 
-### webPage 模式配置
+### webpage 模式配置
 
 ```
-fis.webPage({});
+fis.webpage({});
 ```
 
-### webApp 模式配置
+### webapp 模式配置
 
 ```
-fis.webApp({});
+fis.webapp({});
 ```
