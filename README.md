@@ -1,6 +1,6 @@
 # efit
 
-易上手的前端构建工具，基于 fis3 。
+易上手的前端构建工具，基于 fis3，面向业务项目，支持simple、webpage、webapp三种模式。
 
 ## 安装方法
 
@@ -11,13 +11,13 @@ efit -v
 
 ## 使用方法
 
-### simple 简易模式配置
+### simple 模式配置
 
 ```
 fis.simple({});
 ```
 
-### webpage 模式配置
+### webpage 配置模式
 
 ```
 fis.webpage({});
