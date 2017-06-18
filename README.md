@@ -11,8 +11,11 @@ efit -v
 
 ## 使用方法
 
+### 全部配置选项
+
 ```
-project: {
+var config = {
+  project: {
     // 项目名称
     name: '',
     
@@ -75,24 +78,25 @@ project: {
       packager: true
     }
   }
+};
 ```
 
 ### simple 模式配置
 
 ```
-fis.simple({});
+fis.simple(config);
 ```
 
 ### webpage 配置模式
 
 ```
-fis.webpage({});
+fis.webpage(config);
 ```
 
 ### webapp 模式配置
 
 ```
-fis.webapp({});
+fis.webapp(config);
 ```
 
 ## TODO
