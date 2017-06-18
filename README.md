@@ -11,6 +11,8 @@ efit -v
 
 ## 使用方法
 
+使用方法和[fis3](http://fis.baidu.com/fis3/docs/api/config.html)一致，此外提供三种模式整套配置。
+
 ### 默认配置选项
 
 ```
@@ -81,7 +83,7 @@ var config = {
 };
 ```
 
-### simple 模式配置
+### simple 配置模式
 
 ```
 fis.simple(config);
@@ -93,10 +95,48 @@ fis.simple(config);
 fis.webpage(config);
 ```
 
-### webapp 模式配置
+### webapp 配置模式
 
 ```
 fis.webapp(config);
+```
+
+### 配置示例
+
+fis-conf.js
+```
+var pkg = require('./package');
+
+// 项目基础配置
+fis.webapp({
+    project: {
+        // 项目名称
+        name: pkg.name,
+        // 业务入口
+        entry: ['m'], 
+        // eslint配置文件
+        eslintrc: fis.util.readJSON('./.eslintrc'),
+        // stylelint配置文件 
+        stylelintrc: fis.util.readJSON('./.stylelintrc')
+    },
+    environment: {
+        // 开发环境
+        development: {
+            domain: ''
+        },
+        // 测试环境
+        testing: {
+            domain: ''
+        },
+        // 生产环境
+        production: {
+            domain: 'http://cdn.xxx.com/${project.name}'
+        }
+    }
+});
+
+// 项目拓展配置
+
 ```
 
 ### 已使用项目
