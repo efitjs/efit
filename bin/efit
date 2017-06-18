@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+
+var Liftoff = require('liftoff');
+var path = require('path');
+var minimist = require('minimist');
+var pkg = require('../package');
+
+var argv = minimist(process.argv.slice(2));
+var cli = new Liftoff({
+  // 命令名字
+  name: pkg.name,
+  processTitle: pkg.name,
+  moduleName: pkg.name,
+  configName: 'fis-conf',
+  extensions: {
+    '.js': null
+  }
+});
+
+cli.launch({
+  cwd: argv.r || argv.root,
+  configPath: argv.f || argv.file
+}, function (env) {
+  var fis;
+  if (!env.modulePath) {
+    fis = require('../');
+  } else {
+    fis = require(env.modulePath);
+  }
+  
+  fis.cli.run(argv, env);
+});
