@@ -1,0 +1,16 @@
+/.idea
+/.vscode
+/.settings
+/.project
+/.gitignore
+/node_modules
+/example
+/test
+/.tmp
+.DS_Store
+*.db
+*.bak
+*.tmp
+*.cmd
+~*
+upload.py
