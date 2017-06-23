@@ -101,6 +101,28 @@ fis.webpage(config);
 fis.webapp(config);
 ```
 
+### component 配置模式
+
+```
+var pkg = require('./package');
+var eslintrc = require('./.eslintrc');
+var stylelintrc = fis.util.readJSON('./.stylelintrc');
+
+// 项目基础配置
+fis.component({
+    project: {
+        // 项目名称
+        name: pkg.name,
+        // 项目版本号,填了后自动替换源码中@VERSION@标识,不填则由ci-shell来替换,没有CI环境时必须设置
+        version: pkg.version,
+        // eslint配置文件 http://eslint.org/
+        eslintrc: eslintrc,
+        // stylelint配置文件 https://stylelint.io/
+        stylelintrc: stylelintrc
+    }
+});
+```
+
 ### 配置示例
 
 fis-conf.js

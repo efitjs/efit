@@ -3,6 +3,7 @@ var pkg = require('./package');
 var webapp = require('./lib/config/webapp');
 var webpage = require('./lib/config/webpage');
 var simple = require('./lib/config/simple');
+var component = require('./lib/config/component');
 
 fis.require.prefixes.unshift(pkg.name);
 fis.cli.name = pkg.name;
@@ -96,6 +97,9 @@ fis.webpage = webpage;
 
 // webapp 配置模式
 fis.webapp = webapp;
+
+// component 配置模式
+fis.component = component;
 
 // register command plugins
 // [].forEach(function(name){
