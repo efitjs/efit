@@ -115,6 +115,6 @@ fis.webapp = webapp;
 fis.component = component;
 
 // register command plugins
-// ['init', 'g'].forEach(function (name) {
+// [].forEach(function (name) {
 //   fis.require._cache['command-' + name] = require('./lib/command/' + name);
 // });

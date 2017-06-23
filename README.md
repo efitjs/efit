@@ -1,6 +1,6 @@
 # efit (内测版)
 
-易上手的前端构建工具，基于 fis3，面向业务项目，支持simple、webpage、webapp三种模式。
+易上手的前端构建工具，基于 fis3，面向业务项目和业务组件，支持simple、webpage、webapp、component四种模式。
 
 ## 安装方法
 
@@ -11,7 +11,7 @@ efit -v
 
 ## 使用方法
 
-使用方法和[fis3](http://fis.baidu.com/fis3/docs/api/config.html)一致，此外提供三种模式整套配置。
+使用方法和[fis3](http://fis.baidu.com/fis3/docs/api/config.html)一致，此外提供四种模式整套配置。
 
 ### 脚手架使用
 
