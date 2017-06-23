@@ -13,6 +13,22 @@ efit -v
 
 使用方法和[fis3](http://fis.baidu.com/fis3/docs/api/config.html)一致，此外提供三种模式整套配置。
 
+### 脚手架使用
+
+脚手架请查看 https://github.com/efit-scaffold
+
+使用规则：
+```
+efit init <github username>/<github project>@<version>
+```
+
+简写：
+```
+efit init component 等价于 efit install efit-scaffold/component@latest
+efit init react 等价于 efit install efit-scaffold/react@latest
+efit init vue 等价于 efit install efit-scaffold/vue@latest
+```
+
 ### 默认配置选项
 
 ```

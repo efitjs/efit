@@ -12,6 +12,18 @@ fis.cli.version = require('./lib/version');
 
 // 全局配置 http://fis.baidu.com/fis3/docs/api/config-props.html
 fis.config.merge({
+  // 脚手架配置
+  // fis-components/jquery@latest
+  // fis-component/jquery@1.9.1
+  // efit init <github username>/<github project>@<version>
+  // efit init [efit-scaffold/]<name>@<version>
+  scaffold: {
+    // 默认仓库类型 github
+    type: 'github',
+    // 脚手架仓库名称 https://github.com/efit-scaffold
+    namespace: 'efit-scaffold'
+  },
+  // 项目配置
   project: {
     // 项目名称
     name: '',
@@ -52,6 +64,7 @@ fis.config.merge({
     // 排除某些文件
     ignore: ['node_modules/**', 'output/**', '.git/**', 'fis-conf.js']
   },
+  // 服务环境配置
   environment: {
     // 开发环境
     development: {
@@ -102,6 +115,6 @@ fis.webapp = webapp;
 fis.component = component;
 
 // register command plugins
-// [].forEach(function(name){
-//   fis.require._cache['command-' + name] = require('./plugin/command/' + name);
+// ['init', 'g'].forEach(function (name) {
+//   fis.require._cache['command-' + name] = require('./lib/command/' + name);
 // });
