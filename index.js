@@ -54,7 +54,7 @@ fis.config.merge({
     
     charset: 'utf8',
     // 文件MD5戳长度
-    md5Length: 6,
+    md5Length: 7,
     
     md5Connector: '.',
     
