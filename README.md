@@ -177,18 +177,6 @@ fis.webapp({
 
 ```
 
-### 已使用项目
-
-- 上海诺石科技有限公司
-  - [艾乐卡官网](http://www.iloka.me/)：webpage配置模式，使用的生态模块有 jQuery、artTemplate、Beetl等。
-  - [艾乐卡微站](http://m.iloka.me/iloka)：webapp配置模式，使用的生态模块有 lodash、vue、vuex、vux等。
-  - [艾乐卡资讯编辑器](http://bs.iloka.me/content.html)：webapp配置模式，使用的生态模块有 lodash、react、redux、antd、ueditor等。
-  - [艾乐卡活动编辑器](http://bs.iloka.me/h5.html)：webapp配置模式，使用的生态模块有 lodash、react、redux、antd、heditor等。
-  - [艾乐卡营销中心](http://sso.iloka.me/?url=http%3A%2F%2Fbs.iloka.me%2F#/)：webapp配置模式，使用的生态模块有 lodash、react、redux、antd等。 
-  - [小云雀](http://sso.iloka.me/?url=http%3A%2F%2Fbs.iloka.me%2F#/)：webapp配置模式，使用的生态模块有 lodash、react、redux、antd.mobile等。 
-  - ...
-- 更多
-
 ## TODO
 
 - [ ] 说明文档
