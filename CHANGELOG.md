@@ -12,3 +12,6 @@
 
 ## 0.5.0 / 2017-08-08
 * 去除 png-compressor 插件
+
+## 0.6.0 / 2017-08-30
+* 去除 webpage 模式的 csssprites 功能
