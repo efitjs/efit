@@ -1,6 +1,6 @@
 {
   "name": "efit",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "易上手的前端构建工具，基于 fis3，面向业务项目和业务组件，支持simple、webpage、webapp、component四种模式。",
   "main": "index.js",
   "bin": {
