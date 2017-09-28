@@ -1,6 +1,6 @@
 {
   "name": "efit",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "易上手的前端构建工具，基于 fis3，面向业务项目和业务组件，支持simple、webpage、webapp、component四种模式。",
   "main": "index.js",
   "bin": {
@@ -10,6 +10,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "asoiso <asoiso@foxmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efitjs/efit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/efitjs/efit/issues"
+  },
+  "homepage": "https://github.com/efitjs/efit#readme",
   "license": "ISC",
   "dependencies": {
     "babel-eslint": "7.2.3",
