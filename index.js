@@ -16,12 +16,12 @@ fis.config.merge({
   // fis-components/jquery@latest
   // fis-component/jquery@1.9.1
   // efit init <github username>/<github project>@<version>
-  // efit init [efit-scaffold/]<name>@<version>
+  // efit init [efitjs/]<name>@<version>
   scaffold: {
     // 默认仓库类型 github
     type: 'github',
-    // 脚手架仓库名称 https://github.com/efit-scaffold
-    namespace: 'efit-scaffold'
+    // 脚手架仓库名称 https://github.com/efitjs
+    namespace: 'efitjs'
   },
   // 项目配置
   project: {
