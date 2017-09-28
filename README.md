@@ -1,6 +1,6 @@
 # efit (内测版)
 
-易上手的前端构建工具，基于 fis3，面向业务项目和业务组件，支持simple、webpage、webapp、component四种模式。
+易上手的前端构建工具，基于 fis3，面向业务项目和业务组件，支持 simple、webpage、webapp、component 四种模式。
 
 ## 安装方法
 
